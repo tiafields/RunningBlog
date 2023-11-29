@@ -5,11 +5,12 @@ const useFetch = (url) => {
 
     /* updating state properties  */
     const [data, setData] = useState(null);
-    const [isPending, setIsPending] =useState(true);
+    const [isPending, setIsPending] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect (() => {
         const abortCont = new AbortController();
+        
         setTimeout(() => {
             fetch(url, { signal: abortCont.signal})
                 .then(res => {
