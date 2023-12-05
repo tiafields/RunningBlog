@@ -82,3 +82,40 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* create new blog form */
+
+.Create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.Create label {
+  text-align: left;
+  display: block;
+}
+
+.Create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.Create input, .Create textarea, .Create select , .Create date{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.Create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
